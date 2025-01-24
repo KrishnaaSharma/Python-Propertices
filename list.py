@@ -1,0 +1,129 @@
+
+list = ['roger',5,4,6,7]
+print(list)
+print(type(list))
+print(list[2])
+
+
+#list Method===============================================================
+
+#1. append(x): Adds an element `x` to the end of the list.
+
+a = [1,2,3]
+
+a.append(5)
+print(a) # [1,2,3,5]
+
+# # 2. extend(iterable)============================================================================
+
+a =[1,2,3,4]
+b= [5,6,7,8]
+
+a.extend(b)
+print(a)
+print() # [1, 2, 3, 4, 5, 6, 7, 8]
+
+# #3. insert(i, x)======================================================================================
+
+a = [1,2,3]
+
+a.insert(1,4)
+
+print(a)
+
+print()# [1, 4, 2, 3]
+
+# #4. remove(x)==========================================================================================
+
+a= [1,2,3,4]
+
+a.remove(2)
+print(a)
+
+print() # [1, 3, 4]
+
+# # 5.Pop(i)==========================================================================================
+
+a = [1,2,34,4]
+
+pop_set= a.pop(2)
+
+print(a)
+
+print(pop_set)
+
+print()
+#[1,2,4]
+# output: 34
+
+# ===========================================================================================
+
+a = [1,2,34,4]
+
+pop_set= a.pop()# output: 4
+
+print(a)
+
+print(pop_set)
+
+# # 6. Clear()
+
+# a= [1,2,344,5]
+
+# a.clear()# output: []
+# print(a)
+# print()
+
+
+#7. Index Method
+
+# a =[1 , 2 , 3 , 4 , 5 , 6 , 2]
+
+# index=a.index(2)
+# print(index)
+
+
+# index= a.index(2 , 3 , 7)
+# print(index)
+
+# my_list = [1, 2, 3, 4, 5, 6, 2]
+# index = my_list.index(2)
+# print(index)  # Output: 1
+# index = my_list.index(2 , 3, 7) # 3 is starting of index and 7 is end of index i.e 7-1
+# print(index)  # Output: 1
+
+# print()
+
+# 8. Count:
+
+# a =[1,3,2,4,2,3,3,4,3,5]
+
+# count =a.count(3)
+# print(count)# 4
+
+
+# #9. sort:
+
+# a = [1,1,3,4,2,5,6,7]
+
+# a.sort()
+# print(a)
+
+# #10. reverse():
+
+# a = [1,2,3,4,5,6,7]
+
+# a.reverse()
+# print(a)
+
+
+# #11. len():
+
+# a = [1,2,3,4,5,6,7]
+
+# len= len(a)
+# print(len)
+
+
+
+
