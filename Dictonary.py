@@ -5,5 +5,12 @@ info = {
     'name' : 'krishna',
     'age' : '20'
 }
-
 print(info)
+
+
+print()
+
+
+print(info['name'])
+print(info['age'])
+

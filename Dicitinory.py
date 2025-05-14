@@ -1,16 +1,16 @@
 # print('---- Dictionary Key ----')
 
-# my_dict = {'Name ': 'Roger', 'Heoric Name': 'Captain America', 'Power': 'Sheild'}
+my_dict = {'Name ': 'Roger', 'Heoric Name': 'Captain America', 'Power': 'Sheild'}
 
-# numeric_dict = {1: 'one', 2: 'two', 3: 'three'}
+numeric_dict = {1: 'one', 2: 'two', 3: 'three'}
 
-# tuple_dict = {('a', 1): 'value1', ('b', 2): 'value2'}
+tuple_dict = {('a', 1): 'value1', ('b', 2): 'value2'}
 
-# print(my_dict)
-# print(numeric_dict)
-# print(tuple_dict)
+print(my_dict)
+print(numeric_dict)
+print(tuple_dict)
 
-# print()
+print()
 
 
 if (5>4):

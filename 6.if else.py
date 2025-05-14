@@ -1,9 +1,9 @@
 # If else Statement
 
-# if (4<5):
-#     print("greater")
-# else:
-#     print("Smaller")
+if (4<5):
+    print("greater")
+else:
+    print("Smaller")
 
 
 # nested statement

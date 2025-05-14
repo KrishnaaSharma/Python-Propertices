@@ -1,12 +1,12 @@
 
-# if (5>12):
-#     print("5 is greater")
-# elif (6>13):
-#     print("3 is smaller")
-# elif (7>14):
-#     print('7 is greater')
-# else:
-#     print('not valid ')
+if (5>12):
+    print("5 is greater")
+elif (6>13):
+    print("3 is smaller")
+elif (7>14):
+    print('7 is greater')
+else:
+    print('not valid ')
 
 # Example
 

@@ -1,14 +1,16 @@
 # local Variable
 
 def var():
-    local_var = 10
+    local_var = 10 # local variable
     print("local Variable:", local_var)
     
 var()
 
+
+
 # Global Variable
 
-x =10
+x =10 # Global variable
 
 def var():
     print("global Variable:", x)
@@ -16,11 +18,3 @@ def var():
 var()
 
 
-var = 10
-
-def my_function():
-    print("Inside the function:", var)
-
-my_function()
-
-print("Outside the function:", var)

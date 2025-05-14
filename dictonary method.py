@@ -6,74 +6,77 @@ info = {
 }
 print(info)
 
-# # 1.key method
+# # 1.key method=================================================================================
 
-# print(info.keys()) 
+print(info.keys()) 
 
-# # dict_keys(['key', 'name', 'age'])
-# print()
+print() # dict_keys(['key', 'name', 'age'])
 
-# #2. Values Method
+# #2. Values Method===============================================================================
 
-# info = {
-#     'key' : 'value',
-#     'name' : 'krishna',
-#     'age' : '20'
-# }
-# print(info)
+info = {
+    'key' : 'value',
+    'name' : 'krishna',
+    'age' : '20'
+}
+print(info)
 
-# print(info.values())  #dict_values(['value', 'krishna', '20'])
-# print(list(info.values())) # ['value', 'krishna', '20']
+print(info.values())  #dict_values(['value', 'krishna', '20'])
+print(list(info.values())) # ['value', 'krishna', '20']
 
 
-# 3.fromkeys()
+# 3.fromkeys()=============================================================================
 
 print()
 
-# keys = ['a', 'b', 'c']
-# default_value = 100
-# print(' -- With Single Value--')
-# my_dict = dict.fromkeys(keys, default_value)
-# print(my_dict)
+keys = ['a', 'b', 'c']
+default_value = 100
+print(' -- With Single Value--')
+my_dict = dict.fromkeys(keys, default_value)
+print(my_dict)
 
-# print()
+print()
 
-# print(' -- With Mutliple Value--')
-# default_value = (100,200)
-# my_dict = dict.fromkeys(keys, default_value)
-# print(my_dict)
+print(' -- With Mutliple Value--')
+default_value = (100,200)
+my_dict = dict.fromkeys(keys, default_value)
+print(my_dict)
 
-# print()
+print()
 
-# keys = ['x', 'y', 'z']
-# print(' -- Default Value Is Not Given --')
-# my_dict = dict.fromkeys(keys)
-# print(my_dict)
+keys = ['x', 'y', 'z']
 
-# print()
+
+print(' -- Default Value Is Not Given --')
+
+
+my_dict = dict.fromkeys(keys)
+print(my_dict)
+
+print()
  
 
-# 4.get()
+# 4.get()========================================================================================
 
-# info = {
-#     'key' : 'value',
-#     'name' : 'krishna',
-#     'age' : '20'
-# }
-# print(info)
-
-
-# print(info['name'])# krishna
-
-# print(info.get('name'))# krishna
+info = {
+    'key' : 'value',
+    'name' : 'krishna',
+    'age' : '20'
+}
+print(info)
 
 
-# print(info['name']) # error
+print(info['name'])# krishna
 
-# print(info.get('name')) # none
+print(info.get('name'))# krishna
 
 
-# 5. 
+print(info['name']) # error
+
+print(info.get('name')) # none
+
+
+## 5. Update()========================================================================================
 
 print('----- Update() method -----')
 

@@ -1,49 +1,47 @@
-# Function
+# Function==========================================================================
 
-# def add():
+def add():
 
-#     x = 4
-#     y= 4
-#     result = (x+y)
-#     print(result)
+    x = 4
+    y= 4
+    result = (x+y)
+    print(result)
 
-# add()
+add()
 
-# y = 'krishan'
+y = 'krishan'
 
-# def name(x):
-#     print('my Name is:', x)
+def name(x):
+    print('my Name is:', x)
 
-# name(y)
-
-
-
-# Defining multiple function and callling in one function
+name(y)
 
 
-# def add(x,y):
-#     print('add:', x+y)
 
-# def subtract(x,y):
-#     print('Subtract:', x-y)
-
-# def Multiply(x,y):
-#     print('Multpliction:', x*y)
+# Defining multiple function and callling in one function========================================
 
 
-# num1 = 5
-# num2 = 7
+def add(x,y):
+    print('add:', x+y)
 
-# def calculate():
-#     add(num1, num2)
-#     subtract(num1, num2)
-#     Multiply(num1, num2)
+def subtract(x,y):
+    print('Subtract:', x-y)
 
-# calculate()
+def Multiply(x,y):
+    print('Multpliction:', x*y)
 
 
-def greet(name):  # Here, 'name' is a parameter.
-    print(f"Hello, {name}!")
+num1 = 5
+num2 = 7
+
+def calculate():
+    add(num1, num2)
+    subtract(num1, num2)
+    Multiply(num1, num2)
+
+calculate()
+
+
 
 
     

@@ -243,3 +243,48 @@
 # show(100,200,100)
 
 
+# def sum_of_odds(lst):
+#     # Use a list comprehension to filter odd numbers and sum them
+#     return sum(num for num in lst if num % 2 != 0)
+
+# # Test cases
+# l1 = [2, 4, 5, 7, 8, 9, 3]
+# l2 = [6, 7, 9, -1, 8, 10, 3]
+
+# print("Sum of odd values in l1:", sum_of_odds(l1))  # Expected Output: 24
+# print("Sum of odd values in l2:", sum_of_odds(l2))  # Expected Output: 18
+
+# l = [34, 3, -23, 12, -32, 2, -22]
+
+# pos = 0
+
+# neg = 0
+
+# for n in l:
+#     if n > 0:
+#         pos +=1
+#     elif n < 0:
+#         neg +=1
+
+# print(pos)
+
+
+# Function to calculate the sum of odd numbers from 1 to n
+def sum_of_odd_numbers(n):
+    summation = 0
+    for i in range(1, n + 1, 2):  # Step 2 ensures only odd numbers are included
+        summation += i
+    return summation
+
+# Given input
+n = 10
+
+# Call the function and print the result
+print(sum_of_odd_numbers(n))
+
+
+
+
+
+
+

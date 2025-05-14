@@ -1,9 +1,9 @@
 
-# def display():
-#     return "Hello Word"
-# print(display())
+def display():
+    return "Hello Word"
+print(display())
 
-# display()
+display()
 
 #---------------------------------------
 def add_number(x, y):
